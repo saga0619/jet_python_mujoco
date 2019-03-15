@@ -31,9 +31,11 @@ while (not exit_flag) and (not rospy.is_shutdown()):
         elif key == '\t':  # TAB
             if is_simulation_run:
                 print("SIMULATION PAUSE")
+                mj.simTogglePlay()
                 is_simulation_run = False
             else:
                 print "SIMULATION RUN"
+                mj.simTogglePlay()
                 is_simulation_run = True
         elif key == 'i':
             print "Initial Posture"
