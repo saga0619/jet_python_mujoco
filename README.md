@@ -17,6 +17,6 @@ roslaunch jet_python_mujoco sim.launch
 
 'h' -> home posture
 
-'tab' -> pause/run --> notworking
+'tab' -> pause/run mujoco
 
 'q' -> exit
