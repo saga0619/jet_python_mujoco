@@ -12,3 +12,11 @@ For mujoco user, you need to edit the position of license in dyros_red_simulatio
 
 ## How to run
 roslaunch jet_python_mujoco sim.launch
+
+'i' -> initial posture
+
+'h' -> home posture
+
+'tab' -> pause/run --> notworking
+
+'q' -> exit
