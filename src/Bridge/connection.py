@@ -95,3 +95,9 @@ class mujoco:
         self.jointSet_msg.header.stamp = rospy.Time.now()
         self.jointSet_msg.time = self.mj_time
         self.setjoint.publish(self.jointSet_msg)
+
+    def simTogglePlay(self):
+        self.simcommandpub.publish('pause')
+    
+    def simReset(self):
+        self.simcommandpub.publish('mjreset')
